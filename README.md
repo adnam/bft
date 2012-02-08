@@ -21,27 +21,27 @@ Examples
 
 1. Storing and retrieving entities and collections
     
-    $config = new Zend_Config_Ini('/path/to/config.ini');
-    $bft = new Bft($config);
-    
-    // Create a new entity
-    $contact = $bft->store(array('name' => Joe, 'surname' => 'Bloggs'));
-    
-    // Print the UUID of the contact
-    print $contact->id;
+        $config = new Zend_Config_Ini('/path/to/config.ini');
+        $bft = new Bft($config);
 
-    // Create a collection, and add the entity
-    $collection = $bft->collection('contacts', null);
-    $collection->add($contact);
+        // Create a new entity
+        $contact = $bft->store(array('name' => Joe, 'surname' => 'Bloggs'));
 
-    // List the entities in a collection:
-    $collection->getEntities();
+        // Print the UUID of the contact
+        print $contact->id;
 
-    // List the IDs of entities in a collection
-    $collection->getIds();
+        // Create a collection, and add the entity
+        $collection = $bft->collection('contacts', null);
+        $collection->add($contact);
 
-    // Check if a collection contains a particular entity
-    $collection->hasEntity($contact);
+        // List the entities in a collection:
+        $collection->getEntities();
+
+        // List the IDs of entities in a collection
+        $collection->getIds();
+
+        // Check if a collection contains a particular entity
+        $collection->hasEntity($contact);
 
 Rest-ish API
 ------------
