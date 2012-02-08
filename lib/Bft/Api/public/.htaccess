@@ -1,0 +1,7 @@
+# Apache mod-rewrite script for Bft Api
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^.*$ index.php?url=$1 [QSA,L]
+</IfModule>
+
+
