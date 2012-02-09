@@ -8,11 +8,11 @@ blog-post [How FriendFeed uses MySQL to store schema-less data](http://backchann
 by [Bret Taylor](http://backchannel.org/) of [FriendFeed](http://friendfeed.com/).
 Still, if this interests you, have a look at Redis or Cassandra too :-)
 
-Author:     Adam Hayward <adam at happy dot cat>
-Date:       October 2010
-License:    New BSD, see below
-See:        http://happy.cat/blog/draft/Bft-schemaless-datastore.html
-See:        http://bret.appspot.com/entry/how-friendfeed-uses-mysql
+* Author:     Adam Hayward <adam at happy dot cat>
+* Date:       October 2010
+* License:    New BSD, see below
+* See:        http://happy.cat/blog/draft/Bft-schemaless-datastore.html
+* See:        http://bret.appspot.com/entry/how-friendfeed-uses-mysql
 
 Installation
 ------------
